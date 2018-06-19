@@ -1,2 +1,0 @@
-This header file will be used to count items.
-Currently 'count.h' header file can only count digits in a number.
