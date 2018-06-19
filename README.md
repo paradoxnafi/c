@@ -1,5 +1,4 @@
 # c
-Thise are my test codes in C.
-I am learning programming. I will keep my codes safe in GitHub, unless microsoft ruins them. 
-I am editing the test branch.
-I have just cloned my repo and modifying it.
+Thise are my works in c.
+I have decided to keep them in GitHub so that they stay safe and I can work with them from anywhere.
+Everyone can use my codes and I welcome suggestions.
