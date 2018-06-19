@@ -1,17 +1,11 @@
-# count.h
+## count.h
 
-This header file was created to count items
-Currently it can only count number of digits in a number
-I will add more fuctions in it
+This header file was created to count items.
 
-	**************************************************
-	**************************************************
+Currently it can only count number of digits in a number.
 
-## Function 1
-Counts digits in a number
-> dcount();
+## Function 1: dcount();
+Counts digits in a number.
 
-*************************************************
-
-Founction 2
-<Will continue>
+## Founction 2
+<Comming soon>
