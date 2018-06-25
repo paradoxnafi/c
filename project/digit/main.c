@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
-#include "headers/dcount.h"
+#include "headers/count.h"
 
 int T;
 

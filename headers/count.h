@@ -1,13 +1,16 @@
+// version 1.2
+// Number of functions = 1
+
 int dcount() {
 
-		long int Hnum;
-		int Hcount = 0;
+		long int num;
+		int count = 0;
 		printf("Enter any number: ");
-		scanf(" %ld", &Hnum);
+		scanf(" %ld", &num);
 
-		while(Hnum != 0) {
-			Hcount++;
-			Hnum /= 10;
+		while(num != 0) {
+			count++;
+			num /= 10;
 		}
-		printf("%d \n", Hcount);
+		printf("%d \n", count);
 }
