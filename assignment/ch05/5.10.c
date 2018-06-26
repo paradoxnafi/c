@@ -1,3 +1,6 @@
+// Md. Nafi Shahriyar
+// Id: 18103346
+
 #include <stdio.h>
 #include <math.h>
 
