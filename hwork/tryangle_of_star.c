@@ -7,7 +7,7 @@ int main()
 	printf("Enter a number: ");
 	scanf(" %d", &lim);
 
-	for(i = 1;/* i <= lim*/; i++) {
+	for(i = 1; i <= lim; i++) {
 		for(j = 1; j <= i; j++) {
 			printf("*");
 		}
