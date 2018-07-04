@@ -5,11 +5,13 @@
 
 int main()
 {
-	int i, j, k, sum, bin;
-	sum = 0;
+	int i, j, k, lim;
 	k = 1;
 
-	for(i = 1; k <= 91; i++) {
+	printf("Enter a number: ");
+	scanf(" %d", &lim);
+
+	for(i = 1; k <= lim; i++) {
 		for(j = 1; j <= i; j++) {
 
 			printf("%d ", (k % 2));
