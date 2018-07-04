@@ -9,8 +9,9 @@ int dcount() {
 		scanf(" %ld", &num);
 
 		while(num != 0) {
-			count++;
 			num /= 10;
+			count++;
 		}
-		printf("%d \n", count);
+
+		return count;
 }
