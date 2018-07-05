@@ -1,23 +1,25 @@
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
-		long int num;
-		int count = 0;
-		int digit[count+1];
-		int b_num = num;
+	int n, store[100], i, num, count, backup;
+	count = 0;
 
-		printf("Enter any number: ");
-		scanf(" %ld", &num);
+	printf("Enter any number: ");
+	scanf(" %d", &num);
+	backup = num;
 
-		while(num != 0) {
-			num /= 10;
-			count++;
-		}
+	for(i = 0; num > 0; i++) {
+		store[i] = num % 10;
+		num /= 10;
+		count++;
+	}
 
+	for(i = 0; i < count; i++) {
+		printf("%d", store[i]);
+	}
 
-	for(i = 1; i <= count; i++)
+	printf("\n");
 
 	return 0;
 }
