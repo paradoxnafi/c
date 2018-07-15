@@ -2,7 +2,7 @@
 
 int main()
 {
-	printf("Hello boys.\n");
+	printf("* \n* * \n* * * \n* * * *\n");
 
 	return 0;
 }
