@@ -28,12 +28,14 @@ int main()
 		}
 	}
 
+	// Adding
 	for(i = 0; i <= m-1; i++) {
 		for(j = 0; j <= m-1; j++) {
 			c[i][j] = a[i][j] + b[i][j];
 		}
 	}
 
+	// Printing summation
 	printf("\n");
 	
 	for(i = 0; i <= m-1; i++) {
@@ -43,6 +45,30 @@ int main()
 
 		printf("\n");
 	}
+
+	// Substracting
+	for(i = 0; i <= m-1; i++) {
+		for(j = 0; j <= m-1; j++) {
+			c[i][j] = a[i][j] - b[i][j];
+		}
+	}
+
+	// Printing Substraction
+	printf("\n");
+	
+	for(i = 0; i <= m-1; i++) {
+		for(j = 0; j <= n-1; j++) {
+			printf("%d ", c[i][j]);
+		}
+
+		printf("\n");
+	}
+
+	// Transposesing
+	
+
+
+
 
 	return 0;
 }
