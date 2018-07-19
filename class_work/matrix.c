@@ -36,7 +36,7 @@ int main()
 	}
 
 	// Printing summation
-	printf("\n");
+	printf("\nSummation of a and b:\n");
 	
 	for(i = 0; i <= m-1; i++) {
 		for(j = 0; j <= n-1; j++) {
@@ -54,7 +54,7 @@ int main()
 	}
 
 	// Printing Substraction
-	printf("\n");
+	printf("\nSubstraction of a and b:\n");
 	
 	for(i = 0; i <= m-1; i++) {
 		for(j = 0; j <= n-1; j++) {
@@ -64,8 +64,26 @@ int main()
 		printf("\n");
 	}
 
-	// Transposesing
+	// Printing a 
+	printf("\na matrix:\n");
+	for(i = 0; i <= m-1; i++) {
+		for(j = 0; j <= n-1; j++) {
+			printf("%d ", a[i][j]);
+		}
+
+		printf("\n");
+	}
 	
+	// Printing transpose of a 
+	printf("\nTranspose of a matrix:\n");
+	for(i = 0; i <= m-1; i++) {
+		for(j = 0; j <= n-1; j++) {
+			printf("%d ", a[j][i]);
+		}
+
+		printf("\n");
+	}
+
 
 
 
