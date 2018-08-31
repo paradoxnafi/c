@@ -1,4 +1,4 @@
-// Convertdecimal to binary
+// Convert decimal to binary
 
 #include <stdio.h>
 
